@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Site Cola Cola</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Danfo&family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=PT+Sans&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+
+        <div class="menu-mobile">
+          <div class="btn-fechar"></div>
+        </div>
+        <div class="container">
+            <div class="text">
+                <h2>THAT'S WHAT <br><span>I LIKE</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore fugiat sapiente, eos at
+                    soluta impedit dignissimos quo illum quidem aliquam porro! Id quas hic perferendis, excepturi fugiat
+                    quis consequatur.</p>
+                <a href="#">VIEW ALL PRODUCTS</a>
+            </div> 
+                    
+          <div class="imgBox">
+            <div class="swiper-container">
+             <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/cocacola1.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola2.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola3.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola4.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola5.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola6.png"></div>           
+
+           </div>
+            </div>
+          </div>       
+
+       </div>  
+        <ul class="icons">
+            <li><a href="#"><img src="./img/facebook.png" alt="icons"></a></li>
+            <li><a href="#"><img src="./img/twitter.png" alt="icons"></a></li>
+            <li><a href="#"><img src="./img/instagram.png" alt="icons"></a></li>
+        </ul>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+     <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      loop: true, 
+    });
+  </script>
+    <footer>
+      <div class="interface">
+       <main class="line-footer1">
+          <img src="./img/images-coca_cola.png" alt="logo">
+          <h1>Brasil</h1>
+       </main>
+
+       <main class="line-footer2">
+          
+        <div class="box-line-footer">
+            <h3>Sobre nós</h3>          
+          <div class="links-footer">
+              <a href="">Nossa empresa</a>
+              <a href="">Imprensa</a>
+              <a href="">História</a>
+              <a href="">Carreiras</a>
+            </div>
+          </div>          
+       
+          <div class="box-line-footer">
+            <h3>Precisa de ajuda?</h3>
+            <div class="links-footer">
+              <a href="">Perguntas frequentes</a>
+              <a href="">Mapa do site</a>
+              <a href="">Contate-nos</a>
+           </div>
+          </div>          
+   
+          <div class="box-line-footer">
+            <h3>Legal</h3>
+            <div class="links-footer">
+              <a href="">Termos de uso</a>
+              <a href="">Política de privacidade</a>
+              <a href="">Configuração de cookies</a>
+           </div>
+          </div>          
+       </main>
+       <main class="line-footer3">
+        © 2026 The Coca‑Cola Company. Desenvolvido por Pedro Douglas Rondao. Todos os direitos reservados.
+        
+       </main>   
+   
+    </footer>
+</body>
+
+</html>
